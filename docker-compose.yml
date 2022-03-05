@@ -31,12 +31,12 @@ services:
 
   storefront:
     build:
-      context: ./saleor-storefront
+      context: ./fernvonfremd-storefront
       dockerfile: ./Dockerfile.dev
     restart: unless-stopped
     network_mode: "host"
     volumes:
-      - ./saleor-storefront/:/app:cached
+      - ./fernvonfremd-storefront/:/app:cached
       - /app/node_modules/
     command: npm start
 
