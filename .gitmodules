@@ -1,0 +1,9 @@
+[submodule "fernvonfremd-storefront"]
+	path = fernvonfremd-storefront
+	url = git@gitlab-ssh.vincentcui.de:fernvonfremd/fernvonfremd-storefront.git
+[submodule "saleor"]
+	path = saleor
+	url = git@gitlab-ssh.vincentcui.de:fernvonfremd/saleor.git
+[submodule "fernvonfremd-dashboard"]
+	path = fernvonfremd-dashboard
+	url = git@gitlab-ssh.vincentcui.de:fernvonfremd/fernvonfremd-dashboard.git
